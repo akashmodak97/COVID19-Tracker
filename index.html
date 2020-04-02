@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COVID19 Tracker</title>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Comic+Neue:400,700|Satisfy&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/css/flag-icon.min.css" integrity="sha256-YjcCvXkdRVOucibC9I4mBS41lXPrWfqY2BnpskhZPnw=" crossorigin="anonymous" />
+</head>
+<body>
+	<nav class="navbar">
+  <div class="container-fluid">
+    
+      <a class="navbar-brand" href="#"><a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-plus"></span>COVID19 Live Tracker
+        </a></a>
+    
+
+</div>
+</nav>
+<div class="cards-list">
+  
+<div class="card 1" id="card1" onclick="card1func()">
+  <div class="card_image"> <img src="./images/background1.jpg"  /> </div>
+  <div class="card_title">
+    <p>World Stats</p>
+  </div>
+</div>
+
+  <div class="card 2" id="card2" onclick="card2func()">
+  <div class="card_image">
+    <img src="./images/India.jpg" />
+    </div>
+  <div class="card_title title-white">
+    <p>India Stats<span class="flag-icon flag-icon-in" ></span></p>
+  </div>
+</div>
+
+<div class="card 3" id="card3" onclick="card3func()">
+  <div class="card_image">
+    <img src="./images/district.jpg" />
+  </div>
+  <div class="card_title">
+    <p>Indian District Stats</p>
+  </div>
+</div>
+  
+  <div class="card 4" id="card4" onclick="card4func()">
+  <div class="card_image">
+    <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
+    </div>
+  <div class="card_title title-white">
+    <p>Developer's Contact</p>
+  </div>
+  </div>
+  </div>
+  <div class="foot">
+  	<footer>Developed by Akash Modak!</footer>
+  </div>
+<script type="text/javascript">
+	function card1func(){
+		window.open("countrystats.html");
+	}
+	function card2func(){
+		window.open("indiastats.html");
+	}
+  function card3func(){
+    window.open("districtstats.html");
+
+  }
+	function card4func(){
+		window.open("https://about.me/akashmodak");
+	}
+</script>
+
+</body>
+</html>
